@@ -10,5 +10,6 @@ class CircularTable(context: Context, attrs: AttributeSet?) : Table(context, att
     init {
         LayoutInflater.from(context).inflate(R.layout.circular_table, this, true)
         setTableNumber(attrs)
+        tableShape = "Circular"
     }
 }

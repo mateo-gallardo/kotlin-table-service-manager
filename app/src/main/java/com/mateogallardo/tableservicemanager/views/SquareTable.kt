@@ -10,5 +10,6 @@ class SquareTable(context: Context, attrs: AttributeSet?) : Table(context, attrs
     init {
         LayoutInflater.from(context).inflate(R.layout.square_table, this, true)
         setTableNumber(attrs)
+        tableShape = "Square"
     }
 }

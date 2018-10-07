@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         tables = arrayOf(table10, table11, table12, table13, table14, table18, table19, table20, table21)
         tables?.forEach {
-            it.setOnTouchListener(TableOnTouchListener())
+            it.setOnTouchListener(TableOnTouchListener(this, it))
         }
     }
 }

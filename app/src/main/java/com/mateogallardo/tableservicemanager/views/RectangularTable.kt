@@ -10,5 +10,6 @@ class RectangularTable(context: Context, attrs: AttributeSet?) : Table(context, 
     init {
         LayoutInflater.from(context).inflate(R.layout.rectangular_table, this, true)
         setTableNumber(attrs)
+        tableShape = "Rectangular"
     }
 }
