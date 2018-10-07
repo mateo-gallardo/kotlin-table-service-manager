@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="RectangularTable">
+    <declare-styleable name="Table">
         <attr name="tableNumber" format="integer" />
     </declare-styleable>
 </resources>
