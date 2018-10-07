@@ -6,88 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.mateogallardo.tableservicemanager.views.RectangularTable
-        android:id="@+id/table18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="630dp"
-        android:layout_marginTop="110dp"
-        app:tableNumber="18" />
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
-    <com.mateogallardo.tableservicemanager.views.RectangularTable
-        android:id="@+id/table19"
-        android:layout_width="wrap_content"
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="630dp"
-        android:layout_marginTop="240dp"
-        app:tableNumber="19" />
-
-    <com.mateogallardo.tableservicemanager.views.RectangularTable
-        android:id="@+id/table20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="630dp"
-        android:layout_marginTop="370dp"
-        app:tableNumber="20" />
-
-    <com.mateogallardo.tableservicemanager.views.RectangularTable
-        android:id="@+id/table21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="630dp"
-        android:layout_marginTop="500dp"
-        app:tableNumber="21" />
-
-    <com.mateogallardo.tableservicemanager.views.SquareTable
-        android:id="@+id/table10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="50dp"
-        app:tableNumber="10" />
-
-    <com.mateogallardo.tableservicemanager.views.SquareTable
-        android:id="@+id/table11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="220dp"
-        app:tableNumber="11" />
-
-    <com.mateogallardo.tableservicemanager.views.SquareTable
-        android:id="@+id/table12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="280dp"
-        app:tableNumber="12" />
-
-    <com.mateogallardo.tableservicemanager.views.SquareTable
-        android:id="@+id/table13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="220dp"
-        android:layout_marginTop="280dp"
-        app:tableNumber="13" />
-
-    <com.mateogallardo.tableservicemanager.views.CircularTable
-        android:id="@+id/table14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="450dp"
-        app:tableNumber="14" />
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/navigation" />
 
 </RelativeLayout>
