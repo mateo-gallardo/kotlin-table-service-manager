@@ -4,6 +4,8 @@
 
 _Developed in Kotlin_
 
+> Pro tip: Wait for the gif to load ;)
+
 ![Features showcase](https://thumbs.gfycat.com/PlumpHealthyElephantseal-size_restricted.gif)
 
 ## 'Features'
